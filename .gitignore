@@ -1,0 +1,32 @@
+*.iml
+.gradle
+/local.properties
+
+# IntelliJ IDEA
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/runConfigurations/
+
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Claude Code
+.claude
+
+# Kotlin
+*.kotlin_module
+
+# Android Profiling
+*.hprof
+
+# Keystore files
+*.jks
+*.keystore
+
+# Firebase / Google Services (API keys, secrets)
+google-services.json
