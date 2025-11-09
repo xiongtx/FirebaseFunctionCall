@@ -75,7 +75,7 @@ fun handleFunctionCall(
             val result = executeOnePlusOne()
             addLog("✅ onePlusOne result: $result")
             Log.d("MainActivity", "onePlusOne result: $result")
-            FunctionResponsePart("onePlusOne", result)
+            FunctionResponsePart("onePlusOne", result, functionCall.id)
         }
         else -> {
             addLog("❌ Unknown function: ${functionCall.name}")
@@ -83,6 +83,7 @@ fun handleFunctionCall(
             FunctionResponsePart(
                 functionCall.name,
                 JsonObject(mapOf("error" to JsonPrimitive("Unknown function"))),
+                functionCall.id
             )
         }
     }

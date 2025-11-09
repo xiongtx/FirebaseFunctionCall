@@ -2,6 +2,8 @@
 
 This is an example project to demonstrate issue with [Firebase AI Live](https://firebase.google.com/docs/ai-logic/live-api) function calling.
 
+**Update (2025-11-09)**: [fixed](https://github.com/firebase/firebase-android-sdk/issues/7532#issuecomment-3498852562) by passing `functionCall.id`.
+
 ## Project Configuration
 
 ### Prerequisites
